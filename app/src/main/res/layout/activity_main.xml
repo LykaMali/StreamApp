@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/activity_main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".activities.MainActivity">
+
+
+    <EditText
+        android:id="@+id/channel"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="100dp"
+        android:layout_marginEnd="20dp"
+        android:hint="Enter channel name"
+        android:textSize="20sp" />
+
+    <TextView
+        android:id="@+id/textView_user_uid"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="18sp"
+        android:layout_below="@id/channel"
+        android:layout_marginTop="40dp"
+        android:layout_centerHorizontal="true"/>
+
+    <RadioGroup
+        android:id="@+id/radioGroup"
+        android:layout_width="171dp"
+        android:layout_height="154dp"
+        android:layout_centerInParent="true"
+        android:layout_marginTop="100dp"
+        android:orientation="vertical">
+
+        <RadioButton
+            android:id="@+id/audienceButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Audience"
+            android:textSize="20dp" />
+
+        <RadioButton
+            android:id="@+id/broadcasterButton"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Broadcaster"
+            android:textSize="20dp" />
+
+    </RadioGroup>
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/joinChat"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:layout_above="@id/callAnyPeople"
+        android:layout_marginBottom="10dp"
+        android:onClick="onSubmit"
+        android:textAllCaps="false"
+        android:text="Join Room" />
+
+
+    <androidx.appcompat.widget.AppCompatButton
+        android:id="@+id/callAnyPeople"
+        android:layout_width="match_parent"
+        android:layout_height="52dp"
+        android:onClick="onAnyCallClicked"
+        android:text="Call Any People"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="100dp"
+        android:textAllCaps="false"/>
+
+
+</RelativeLayout>

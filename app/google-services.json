@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "958648725820",
+    "project_id": "streamapp-4d76a",
+    "storage_bucket": "streamapp-4d76a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:958648725820:android:126b47a8eaba3e54122e39",
+        "android_client_info": {
+          "package_name": "com.mali.streamapp"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "958648725820-lrnmoil0cqak8l5d4medqr80grnarrp4.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCJcR9anhnJ6rtYRIGQD_BA1fyGMWi_aTM"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "958648725820-lrnmoil0cqak8l5d4medqr80grnarrp4.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

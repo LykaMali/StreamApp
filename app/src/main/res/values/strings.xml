@@ -1,0 +1,18 @@
+<resources>
+    <string name="app_name">StreamApp</string>
+    <string name="action_settings">Settings</string>
+    <!-- Strings used for fragments for navigation -->
+    <string name="first_fragment_label">First Fragment</string>
+    <string name="second_fragment_label">Second Fragment</string>
+    <string name="next">Next</string>
+    <string name="previous">Previous</string>
+
+    <string name="hello_first_fragment">Hello first fragment</string>
+    <string name="hello_second_fragment">Hello second fragment. Arg: %1$s</string>
+
+    <string name="onesignal_app_id">2ee6c7cb-0724-4f1f-8120-c9ce5e22d194</string>
+    <string name="agora_channel_name">streamAppChannel</string>
+    <string name="app_id">dd17e8fba7454302bbdfe88803a0c9bc</string>
+    <string name="agora_token">006dd17e8fba7454302bbdfe88803a0c9bcIABf6628VAuH6y6oIWPIEVVJomGsXO8QDcM0EEBDONpx8vJA/HsAAAAAIgB/xs3W/vmEYgQAAQD++YRiAgD++YRiAwD++YRiBAD++YRi</string>
+    <string name="rtm_access_token">006dd17e8fba7454302bbdfe88803a0c9bcIABf6628VAuH6y6oIWPIEVVJomGsXO8QDcM0EEBDONpx8vJA/HsAAAAAIgB/xs3W/vmEYgQAAQD++YRiAgD++YRiAwD++YRiBAD++YRi</string>
+</resources>
