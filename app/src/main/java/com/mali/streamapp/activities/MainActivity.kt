@@ -81,7 +81,7 @@ class MainActivity : BaseActivity(),
             Manifest.permission.ACCESS_NOTIFICATION_POLICY
         ),
             Definations.PERMISSION_REQ_ID_RECORD_AUDIO
-        )
+        ) 
     }
 
     fun onSubmit(view: View) {

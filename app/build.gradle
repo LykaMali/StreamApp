@@ -13,7 +13,6 @@ def versionPatch = 0
 
 android {
     compileSdk 31
-
     defaultConfig {
         applicationId "com.mali.streamapp"
         minSdk 21
