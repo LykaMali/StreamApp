@@ -82,9 +82,6 @@ dependencies {
     implementation 'org.jetbrains.kotlin:kotlin-reflect:1.5.30'
     kapt("com.android.databinding:compiler:3.1.4")
 
-    //desc: Usage Agora Library
-    implementation 'com.github.agorabuilder:native-full-sdk:3.5.0.3'
-
     //desc: agora live call notification
     implementation 'io.agora.rtm:rtm-sdk:1.2.2'
 
